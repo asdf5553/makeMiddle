@@ -1,6 +1,5 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+public int[] makeMiddle(int[] nums) {
+  int x=((nums.length)/2);
+   int[] answer = {nums[x-1], nums[x]};
+   return answer;
+}
